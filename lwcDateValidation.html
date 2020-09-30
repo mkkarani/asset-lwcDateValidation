@@ -1,0 +1,15 @@
+<template>
+    <div class="containerDiv">
+        <!-- Input Container-->
+        <div class="slds-form__row slds-grid slds-gutters slds-wrap ">
+            <div class="slds-col slds-small-size_6-of-12 slds-size_1-of-2">
+                <lightning-input type="date" name="fromDate" label="Enter from date" value={fromDate}
+                    onchange={handleInputEvent}></lightning-input>
+            </div>
+            <div class="slds-col slds-small-size_6-of-12 slds-size_1-of-2">
+                <lightning-input type="date" name="toDate" label="Enter to date" value={toDate}
+                    onchange={handleInputEvent}></lightning-input>
+            </div>
+        </div>
+    </div>
+</template>
